@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0
+        <link rel="icon" type="image/jpg" href="content/images/dev.jpg">
+        <title>gdev</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <!--made by gdev-->
+    </head>
+    <body>
+
+
+<header class="liquid-glass-header">
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="content/images/dev.jpg" alt="gdev's Picture" width="50" height="50" style="border-radius: 25px; box-shadow: 0 0 10px #8c00ff;">
+        <h1 style="text-shadow: 0 0 10px #cc00ff; font-family: 'IBM Plex Sans', 'Verdana', 'sans-serif';">gdev's hangout</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="lyrics.html">lyrics</a></li>
+            <li><a href="cheat.html">cheat</a></li>
+        </ul>
+    </nav>
+</header>
+<svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+  <filter id="liquid-refraction">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G" />
+  </filter>
+</svg>
+<main class="main-layout">
+    <div class="leftcontent">
+        <h1>welcome to gdev's hangout</h1>
+        <p>Hi, I'm gdev! This is my personal website. I love coding and creating cool projects.</p>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I'm a new software developer and gamer. I love learning new coding languages and cool things to do on the internet.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+        <ul>
+            <dl>
+                <li><dt><a href="https://galaxydevvv.github.io/mccity/"><b>Mccity</b></a></dt>
+                <dd><p>A Minecraft City map I made with my friends for a school project.</p></dd></li>
+                <li><dt><a href=""><b>Impact Line</b></a></dt>
+                <dd><p>A HTML based fast-paced game.<br><b style="color: #ff0000;">(Not Available)</b></p></dd></li>
+                <li><dt><a href="https://galaxydevvv.github.io/spritelist/"><b>FST</b></a></dt>
+                <dd><p>A Fortnite sprite tracker to track how many sprites you have.</p></dd></li>            
+            </dl>
+        </ul>
+        </section>
+    </div>
+    <div class="content-stack">
+        <div class="content">
+            <section class="main">
+                 <div class="gallery">
+                    <a href="content/images/first.gif" target="_blank"><img src="content/images/first.gif" alt="GIF of a plane flying" height="145" width="235"></a>
+                        <div class="description"><pre>First GIF ever created. (1987)</pre></div>
+                 </div>
+                 <div class="gallery">
+                        <a href="content/images/fedora.jpg" target="_blank"><img src="content/images/fedora.jpg" alt="My OS, Fedora" height="145" width="235"></a>
+                        <div class="description"><pre>I use Fedora Linux to code.</pre></div>
+                 </div>
+                 <div class="gallery">
+                    <a href="content/images/minecraft.jpg" target="_blank"><img src="content/images/minecraft.jpg" alt="Minecraft" height="145" width="235"></a>
+                    <div class="description"><pre>My favorite game is Minecraft!</pre></div>
+                 </div>
+            </section>
+        </div>
+        <div class="content">
+            <section class="main">
+                <iframe src="https://widget.nowplaying.site/srLGQdlcPpZxzZeM" width="100%" height="200" title="Now Playing"></iframe>
+                    <sub>See what im listening to on spotify! <i>(if blank that means spotify is off or its loading)</i></sub>
+            </section>
+        </div>
+    </div>
+    <div class="rightsidecontainer">
+        <div class="clockcontent">
+            <img src="content/images/clock.png" alt="Clock" width="250" height="250">
+        </div>
+        <br>
+        <div class="rightcontent">
+            <p>I am trying to learn and master a variety of cool technologies to help in the future and with simply making cool projects.</p>
+            <section class="about">
+                <h2>Tools</h2>
+                <div class="tools-container">
+                <span class="tool-tag">HTML</span>
+                <span class="tool-tag">JS</span>
+                <span class="tool-tag">CSS</span>
+                <span class="tool-tag">Linux</span>
+                <span class="tool-tag">Adobe Photoshop</span>
+                <span class="tool-tag">GDevelop</span>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+<hr>
+        <h2>Links</h2>
+        <ul>
+        <li>
+            <a href="https://stardance.hackclub.com/@gdev">
+                stardance page
+            </a>
+        </li>
+        </li>
+        <br>
+        <li>
+            <a href="mailto:galaxydev13yt@gmail.com">
+                email me
+            </a>
+        </li>
+        </ul>
+        <br>
+        <hr>
+        <div class="footer">
+            <p>Made by gdev | v1.0</p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
