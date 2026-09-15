@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="content/images/dev.jpg">
+        <title>gdev</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <!--made by gdev-->
+    </head>
+    <body>
+
+
+<header class="liquid-glass-header">
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="content/images/dev.jpg" alt="gdev's Picture" width="50" height="50" style="border-radius: 25px; box-shadow: 0 0 10px #8c00ff;">
+        <h1 style="text-shadow: 0 0 10px #cc00ff; font-family: 'IBM Plex Sans', 'Verdana', 'sans-serif';">gdev's hangout</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">home</a></li>
+        </ul>
+    </nav>
+</header>
+<svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+  <filter id="liquid-refraction">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G" />
+  </filter>
+</svg>
+<main class="main-layout">
+    <div class="leftcontent-stack">
+        <div class="leftcontent">
+            <h1>welcome to gdev's hangout</h1>
+            <p>Hi, I'm gdev! This is my personal website. I love coding and creating cool projects.</p>
+            <section class="about">
+                <h2>About Me</h2>
+                <p>I'm a new software developer and gamer. I love learning new coding languages and cool things to do on the internet.</p>
+            </section>
+        </div>
+        <div class="leftcontent">
+            <h2>Socials</h2>
+            <p>Follow me on all platforms to help support me!</p>
+            <ul>
+        <li>
+            <a href="https://stardance.hackclub.com/@gdev">
+                stardance page
+            </a>
+        </li>
+        </li>
+        <br>
+        <li>
+            <a href="mailto:galaxydev13yt@gmail.com">
+                email me
+            </a>
+        </li>
+        </ul>
+        </div>
+    </div>
+    <div class="content-stack">
+        <div class="content">
+            <h2>My Projects</h2>
+    <section class="card-grid">
+        <article class="card-item">
+            <a href="https://galaxydevvv.github.io/mccity/" target="_blank" class="card-link">
+                <img src="https://galaxydevvv.github.io/mccity/Images/sunset.png" alt="Sunset over a blocky city" class="card-image" height="145" width="235">
+            </a>
+            <div class="card-info">
+                <h1>MCCity</h1>
+                <p class="card-text">A Minecraft City map I made with my friends for a school project.</p>
+            </div>
+        </article>
+        <article class="card-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYJVDephaSURaaZmra5_D5a31P7hhJGMP00QXky2xLYzFWXh_qgDB_7b-&s=10" alt="Placeholder image" class="card-image" height="145" width="235">
+            <div class="card-info">
+                <p>More projects coming soon!</p>
+            </div>
+        </article>
+    </section>
+</div>
+
+        <div class="content">
+            <section class="main">
+                <div class="no-out">
+                <iframe src="https://widget.nowplaying.site/srLGQdlcPpZxzZeM" width="100%" height="200" title="Now Playing"></iframe>
+                    <sub>See what im listening to on spotify! <i>(if blank that means spotify is off or its loading)</i></sub>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="rightsidecontainer">
+            <div class="clockcontent">
+                <div id="clock" class="clock" role="timer" aria-label="Current time">
+                    <div class="ring hours" aria-hidden="true"></div>
+                    <div class="ring minutes" aria-hidden="true"></div>
+                    <div class="ring seconds" aria-hidden="true"></div>
+                    <div class="clock-center">
+                        <div id="time" class="time" aria-live="off">
+                            <span id="timeValue" class="time-value">12:00</span>
+                            <span id="timePeriod" class="time-period">AM</span>
+                        </div>
+                        <span id="clockDate" class="clock-date"></span>
+                    </div>
+                </div>
+            </div>
+        <br>
+        <div class="rightcontent">
+            <p>I am trying to learn and master a variety of cool technologies to help in the future and with simply making cool projects.</p>
+            <section class="about">
+                <h2>Tools</h2>
+                <div class="tools-container">
+                <span class="tool-tag">HTML</span>
+                <span class="tool-tag">JS</span>
+                <span class="tool-tag">CSS</span>
+                <br>
+                <span class="tool-tag">VS Code</span>
+                <span class="tool-tag">Adobe</span>
+                <span class="tool-tag">GDevelop</span>
+                <br>
+                <span class="tool-tag">Mac</span>
+                <span class="tool-tag">Windows</span>
+                <span class="tool-tag">Linux</span>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+        <div class="footer">
+            <p>Made by gdev | v1.1</p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
